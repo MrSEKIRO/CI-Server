@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{9692BFC6-7DFA-4BFE-9027-CC14CAE295AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubPlugin", "GitPlugin\GithubPlugin.csproj", "{4FFFC864-AAD1-4842-B867-772A1E576D49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetTestPlugin", "DotnetPlugin\DotnetTestPlugin.csproj", "{E0B94760-2C50-4E1B-9705-C3D18A29482D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitlabPlugin", "GitlabPlugin\GitlabPlugin.csproj", "{9D78F5E0-ED3D-444E-8275-249B05D1F973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSPlugin", "SMSPlugin\SMSPlugin.csproj", "{6880FD37-933A-46D0-8B9E-2A761F774A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailPlugin", "EmailPlugin\EmailPlugin.csproj", "{388EBFDD-6C3C-46A0-8C2D-F2D55A83CABA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StepPlugins", "StepPlugins", "{0FE95798-9ECF-4CE9-9A61-ABC41CAEBA8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationPlugins", "NotificationPlugins", "{0CE4D1F4-C488-411B-BD96-52681AB0BB52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Contracts", "Core.Contracts\Core.Contracts.csproj", "{A418EA49-8DB7-46E9-AA1C-178A401D1C6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9692BFC6-7DFA-4BFE-9027-CC14CAE295AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9692BFC6-7DFA-4BFE-9027-CC14CAE295AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9692BFC6-7DFA-4BFE-9027-CC14CAE295AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9692BFC6-7DFA-4BFE-9027-CC14CAE295AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFFC864-AAD1-4842-B867-772A1E576D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFFC864-AAD1-4842-B867-772A1E576D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFFC864-AAD1-4842-B867-772A1E576D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFFC864-AAD1-4842-B867-772A1E576D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B94760-2C50-4E1B-9705-C3D18A29482D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B94760-2C50-4E1B-9705-C3D18A29482D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B94760-2C50-4E1B-9705-C3D18A29482D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B94760-2C50-4E1B-9705-C3D18A29482D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D78F5E0-ED3D-444E-8275-249B05D1F973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D78F5E0-ED3D-444E-8275-249B05D1F973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D78F5E0-ED3D-444E-8275-249B05D1F973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D78F5E0-ED3D-444E-8275-249B05D1F973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6880FD37-933A-46D0-8B9E-2A761F774A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6880FD37-933A-46D0-8B9E-2A761F774A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6880FD37-933A-46D0-8B9E-2A761F774A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6880FD37-933A-46D0-8B9E-2A761F774A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388EBFDD-6C3C-46A0-8C2D-F2D55A83CABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388EBFDD-6C3C-46A0-8C2D-F2D55A83CABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388EBFDD-6C3C-46A0-8C2D-F2D55A83CABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388EBFDD-6C3C-46A0-8C2D-F2D55A83CABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A418EA49-8DB7-46E9-AA1C-178A401D1C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A418EA49-8DB7-46E9-AA1C-178A401D1C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A418EA49-8DB7-46E9-AA1C-178A401D1C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A418EA49-8DB7-46E9-AA1C-178A401D1C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4FFFC864-AAD1-4842-B867-772A1E576D49} = {0FE95798-9ECF-4CE9-9A61-ABC41CAEBA8F}
+		{E0B94760-2C50-4E1B-9705-C3D18A29482D} = {0FE95798-9ECF-4CE9-9A61-ABC41CAEBA8F}
+		{9D78F5E0-ED3D-444E-8275-249B05D1F973} = {0FE95798-9ECF-4CE9-9A61-ABC41CAEBA8F}
+		{6880FD37-933A-46D0-8B9E-2A761F774A33} = {0CE4D1F4-C488-411B-BD96-52681AB0BB52}
+		{388EBFDD-6C3C-46A0-8C2D-F2D55A83CABA} = {0CE4D1F4-C488-411B-BD96-52681AB0BB52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5E4E793-D53E-422F-9499-6B122913D7B1}
+	EndGlobalSection
+EndGlobal
