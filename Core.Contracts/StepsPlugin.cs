@@ -7,7 +7,7 @@ public abstract class StepsPlugin
 	public string Name;
 	public List<IJobStep> Steps;
 
-	public void ListSteps()
+	public virtual void ListSteps()
 	{
 		foreach(var step in Steps)
 		{

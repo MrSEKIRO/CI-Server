@@ -1,20 +1,17 @@
 ﻿using Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GithubPlugin
 {
 	public class GithubStepPlugin : StepsPlugin
 	{
-		public string Name { get; set; } = "Github Plugin";
-
-		public List<IJobStep> Steps { get; set; } = new List<IJobStep>
+		public GithubStepPlugin()
 		{
-			new GithubStep1(),
-		};
+			this.Name = "Github Plugin";
+			this.Steps = new List<IJobStep>
+			{
+				new GithubStep1(),
+			};
+		}
 	}
 
 	public class GithubStep1 : IJobStep
