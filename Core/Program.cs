@@ -184,7 +184,7 @@ void EnterMarketPlace()
 				break;
 			case 4:
 				Console.WriteLine("Available Plugins:");
-				var availablePlugins = marketPlace.AllAvailablePlugins();
+				var availablePlugins = AllAvailablePlugins();
 				foreach(var pluginname in availablePlugins)
 				{
 					Console.WriteLine($"- {pluginname}");
@@ -199,4 +199,13 @@ void EnterMarketPlace()
 				break;
 		}
 	}
+}
+
+List<string> AllAvailablePlugins()
+{
+	return [
+		nameof(GithubStepPlugin),
+			nameof(GitLabStepPlugin),
+			nameof(DotnetTestStepPlugin)
+	];
 }

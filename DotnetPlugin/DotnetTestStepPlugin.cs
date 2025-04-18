@@ -4,13 +4,15 @@ namespace DotnetPlugin
 {
 	public class DotnetTestStepPlugin : StepsPlugin
 	{
-		public string Name { get; set; } = "Dotnet Test Plugin";
-
-		public List<IJobStep> Steps { get; set; } = new List<IJobStep>
+		public DotnetTestStepPlugin()
 		{
-			new RunTest()
-		};
-
+			this.Name = "Dotnet Test Plugin";
+			this.Steps = new List<IJobStep>
+			{
+				new RunTest(),
+				// Add more steps as needed
+			};
+		}
 	}
 
 	public class RunTest : IJobStep

@@ -4,13 +4,15 @@ namespace GitlabPlugin
 {
 	public class GitLabStepPlugin : StepsPlugin
 	{
-		public string Name { get; set; } = "GitLab Plugin";
-
-		public List<IJobStep> Steps { get; set; } = new List<IJobStep>
+		public GitLabStepPlugin()
 		{
-			new GitlabJobStep1 { Name = "GitLab Step 1", Command = "gitlab-runner exec shell <job-name>" },
-			// Add more steps as needed
-		};
+			this.Name = "GitLab Plugin";
+			this.Steps = new List<IJobStep>
+			{
+				new GitlabJobStep1(),
+				// Add more steps as needed
+			};
+		}
 	}
 
 	public class GitlabJobStep1 : IJobStep

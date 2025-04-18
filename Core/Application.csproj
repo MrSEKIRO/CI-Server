@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core.Contracts\Core.Contracts.csproj" />
+    <ProjectReference Include="..\Core.Contracts\Core.csproj" />
     <ProjectReference Include="..\DotnetPlugin\DotnetTestPlugin.csproj" />
     <ProjectReference Include="..\GitlabPlugin\GitlabPlugin.csproj" />
     <ProjectReference Include="..\GitPlugin\GithubPlugin.csproj" />

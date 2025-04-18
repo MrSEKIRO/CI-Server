@@ -1,8 +1,4 @@
-﻿using DotnetPlugin;
-using GithubPlugin;
-using GitlabPlugin;
-
-namespace Core;
+﻿namespace Core;
 
 public class StepPluginRegistry
 {
@@ -70,14 +66,5 @@ public class StepPluginRegistry
 					.FirstOrDefault();
 
 		return step;
-	}
-
-	public List<string> AllAvailablePlugins()
-	{
-		return [
-			nameof(GithubStepPlugin),
-			nameof(GitLabStepPlugin),
-			nameof(DotnetTestStepPlugin)
-		];
 	}
 }
